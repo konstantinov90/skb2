@@ -10,6 +10,8 @@
   "author": "",
   "license": "ISC",
   "dependencies": {
+    "color": "^0.11.4",
+    "color-js": "^1.0.3",
     "cors": "^2.8.1",
     "express": "^4.14.0"
   }

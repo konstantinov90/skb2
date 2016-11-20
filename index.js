@@ -4,6 +4,7 @@ var cors = require('cors');
 var task2a = require('./task2a');
 var task2b = require('./task2b');
 var task2c = require('./task2c');
+var task2d = require('./task2d');
 
 var app = express();
 
@@ -12,6 +13,7 @@ app.use(cors());
 app.use('/task2a', task2a);
 app.use('/task2b', task2b);
 app.use('/task2c', task2c);
+app.use('/task2d', task2d);
 
 app.get('/', (req, res) => {
   res.send(`
