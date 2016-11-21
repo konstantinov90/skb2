@@ -21,6 +21,7 @@ app.get('/', (req, res) => {
       <li><a href="/task2a/?a=10&b=15.4">Task 2A</a></li>
       <li><a href="/task2b/?fullname=Alexander Sergeevich Konstantinov">Task 2B</a></li>
       <li><a href="/task2c/?username=telegram.me/konstantinov90">Task 2C</a></li>
+      <li><a href="/task2d/?color=rgb(120, 15, 21)">Task 2D</a></li>
     </ol>
   `);
 });
